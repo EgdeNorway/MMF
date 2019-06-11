@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">mmf</string>
+    <string name="title_activity_callback">Demo Using Callbacks</string>
+    <string name="starting_string">Starting…</string>
+    <string name="run_callback_demo">Run Callback demo</string>
+    <string name="button_start">Start</string>
+    <string name="session_created">Session created… Authorizing…</string>
+    <string name="session_authorized">Session authorized!\nFetching file list…</string>
+    <string name="auth_declined">Authorization declined</string>
+    <string name="fetch_accounts">Fetching service account details…</string>
+    <string name="account_fail">Could not fetch account info</string>
+    <string name="APP_ID">j8PVPe8O1KG5E8Tg9nkNYxMIrZWVUpmz</string>
+    <string name="CONTRACT_ID">NwkLC6cRnxeQ0PSRmysngE0eLSS2NiWr</string>
+    <string name="P12_KEYSTORE_FILENAME">NwkLC6cRnxeQ0PSRmysngE0eLSS2NiWr.p12</string>
+    <string name="P12_KEYSTORE_PASSWORD">digime</string>
+    <plurals name="files_retrieved">
+        <item quantity="one">File list retrieved: %d file</item>
+        <item quantity="other">File list retrieved: %d files</item>
+    </plurals>
+</resources>

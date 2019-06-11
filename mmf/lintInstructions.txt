@@ -1,0 +1,36 @@
+Lint instructions:
+Uninstall eslint og prettier plugin hvis tilstede i vscode
+
+Install eslint:>
+
+    yarn add eslint -D
+
+Add imports :>
+*Mulig bare yarn nødvendig men slenger med commands for trygg måling*
+
+    yarn add eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react -D
+
+Install prettier :>
+
+    yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+    
+Install babel:>
+yarn add babel-eslint
+
+VSCode user {} settings :>
+File-Preferences-Settings
+*Må legges inn i hver enkelts user settings*
+
+{
+  // other settings
+  // formatting using eslint
+  // let editor format using prettier for all other files
+  "editor.formatOnSave": true,
+  // disable editor formatting, so eslint can handle it
+  "[javascript]": {
+    "editor.formatOnSave": false,
+  },
+  // available through eslint plugin in vscode
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+}

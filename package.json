@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  },
+  "dependencies": {
+    "react-redux": "^6.0.0"
+  }
+}

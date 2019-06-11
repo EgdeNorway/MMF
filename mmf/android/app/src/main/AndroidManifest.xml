@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.mmf">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <application
+      android:name=".MainApplication"
+      android:label="@string/app_name"
+      android:icon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:allowBackup="false"
+      android:theme="@style/AppTheme">
+      <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+        android:windowSoftInputMode="adjustResize">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+      </activity>
+      <meta-data
+            android:name="me.digi.sdk.AppName"
+            android:value="@string/app_name" />
+        <meta-data
+            android:name="me.digi.sdk.AppId"
+            android:value="@string/APP_ID" />
+        <meta-data
+            android:name="me.digi.sdk.Contracts"
+            android:resource="@string/CONTRACT_ID" />
+        <meta-data
+            android:name="me.digi.sdk.Keys"
+            android:value="@string/P12_KEYSTORE_FILENAME" />
+        <meta-data
+            android:name="me.digi.sdk.KeysPassphrase"
+            android:value="@string/P12_KEYSTORE_PASSWORD" />
+
+    </application>
+
+</manifest>

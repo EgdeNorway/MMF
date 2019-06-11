@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "821905479135",
+    "firebase_url": "https://mmfapp-3603c.firebaseio.com",
+    "project_id": "mmfapp-3603c",
+    "storage_bucket": "mmfapp-3603c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821905479135:android:ea4fb776896247fa",
+        "android_client_info": {
+          "package_name": "com.mmf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821905479135-6l90679haglmm01ku8fn94g1theik2ke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mmf",
+            "certificate_hash": "77b32c417768e33a5181a697a5de82f3a11c3c87"
+          }
+        },
+        {
+          "client_id": "821905479135-pvr6bavtspvovv95q2fq8pev523ovadu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUI4nwVR10oIaP8xBSuFV11g2b9Ka3zyA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821905479135-pvr6bavtspvovv95q2fq8pev523ovadu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

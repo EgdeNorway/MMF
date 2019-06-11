@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from default config. -->
+    <string name="app_id" translatable="false">j8PVPe8O1KG5E8Tg9nkNYxMIrZWVUpmz</string>
+    <string name="app_name" translatable="false">[YOUR APPLICATION_NAME]</string>
+    <string name="contract_id" translatable="false">NwkLC6cRnxeQ0PSRmysngE0eLSS2NiWr</string>
+    <string name="p12_filename" translatable="false">NwkLC6cRnxeQ0PSRmysngE0eLSS2NiWr.p12</string>
+    <string name="p12_pass" translatable="false">digime</string>
+
+</resources>
