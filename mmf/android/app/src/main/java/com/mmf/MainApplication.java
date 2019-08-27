@@ -3,14 +3,15 @@ package com.mmf;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.github.xinthink.rnmk.ReactMaterialKitPackage;
-import com.idehub.GoogleAnalyticsBridge.GoogleAnalyticsBridgePackage;
 import com.horcrux.svg.SvgPackage;
-import co.apptailor.googlesignin.RNGoogleSigninPackage;
+import com.github.xinthink.rnmk.ReactMaterialKitPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
+import com.idehub.GoogleAnalyticsBridge.GoogleAnalyticsBridgePackage;
+import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+
+import co.apptailor.googlesignin.RNGoogleSigninPackage;
 import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.auth.RNFirebaseAuthPackage;
-import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -31,9 +32,17 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
 
-          new MainReactPackage(), new ReactMaterialKitPackage(), new GoogleAnalyticsBridgePackage(),
-          new RNGoogleSigninPackage(), new VectorIconsPackage(), new SvgPackage(), new RNFirebaseAuthPackage(),
-          new RNFirebasePackage(), new RNGestureHandlerPackage(), new NativeBridgePackage(), new GooglePackage());
+          new MainReactPackage(),
+            new SvgPackage(),
+            new ReactMaterialKitPackage(),
+            new VectorIconsPackage(),
+            new GoogleAnalyticsBridgePackage(),
+            new RNGestureHandlerPackage(),
+            new RNGoogleSigninPackage(),
+            new RNFirebaseAuthPackage(),
+            new RNFirebasePackage(),
+            new NativeBridgePackage(),
+            new GooglePackage());
     }
 
     @Override

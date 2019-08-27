@@ -4,31 +4,22 @@ import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactRootView;
 import com.facebook.react.ReactInstanceManager;
-import com.facebook.react.bridge.ReactApplicationContext;
-import com.facebook.react.bridge.ReactContextBaseJavaModule;
-import com.facebook.react.bridge.ReactMethod;
-import com.facebook.react.common.LifecycleState;
-import com.facebook.react.shell.MainReactPackage;
 
 import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
 
 import android.os.Bundle;
 import android.content.Intent;
 
-import android.support.v7.app.AppCompatActivity;
-
 import me.digi.sdk.core.DigiMeClient;
 import me.digi.sdk.core.entities.CAAccounts;
 import me.digi.sdk.core.session.CASession;
 import me.digi.sdk.core.SDKException;
 import me.digi.sdk.core.SDKListener;
-import me.digi.sdk.core.SDKCallback;
 import me.digi.sdk.core.entities.CAFileResponse;
 import me.digi.sdk.core.entities.CAFiles;
 import me.digi.sdk.core.internal.AuthorizationException;
 
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 
 public class MainActivity extends ReactActivity implements SDKListener {
 

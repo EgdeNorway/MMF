@@ -41,9 +41,6 @@ buck-out/
 \.buckd/
 *.keystore
 
-#cache
-cache/
-
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
@@ -57,3 +54,6 @@ cache/
 
 # Bundle artifact
 *.jsbundle
+
+# CocoaPods
+/ios/Pods/
