@@ -22,7 +22,9 @@ import me.digi.sdk.core.SDKResponse;
 import me.digi.sdk.core.entities.CAFileResponse;
 import me.digi.sdk.core.entities.CAFiles;
 
-
+/**
+ * Created by GITBACIT team May 2019 for Egde Consulting AS
+ */
 public class CallbackActivity extends AppCompatActivity {
 
     private static final String TAG = "DemoCallbackActivity";

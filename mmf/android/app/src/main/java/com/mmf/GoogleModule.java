@@ -24,6 +24,9 @@ import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Scope;
 import com.google.android.gms.common.api.Status;
 
+/**
+ * Created by GITBACIT team May 2019 for Egde Consulting AS
+ */
 public class GoogleModule extends ReactContextBaseJavaModule {
     private static final String NAME = "GoogleUtil";
     private static final String TAG = "ReactNativeJS";

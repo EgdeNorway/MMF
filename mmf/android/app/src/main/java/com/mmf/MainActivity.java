@@ -21,6 +21,9 @@ import me.digi.sdk.core.internal.AuthorizationException;
 
 import com.google.gson.JsonElement;
 
+/**
+ * Created by GITBACIT team May 2019 for Egde Consulting AS
+ */
 public class MainActivity extends ReactActivity implements SDKListener {
 
     private ReactInstanceManager reactInstanceManager;
